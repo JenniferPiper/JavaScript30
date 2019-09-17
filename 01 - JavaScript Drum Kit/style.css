@@ -1,6 +1,7 @@
 html {
   font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url(israel-palacio-BuiBnE4N31U-unsplash.jpg) bottom center;
+  /*Photo by israel palacio on Unsplash*/
   background-size: cover;
 }
 
@@ -19,7 +20,7 @@ body,html {
 }
 
 .key {
-  border: .4rem solid black;
+  border: .4rem solid rgba(49, 123, 174,0.4);
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -28,14 +29,14 @@ body,html {
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.4);
+  background: rgba(49, 123, 174,0.4);
   text-shadow: 0 0 .5rem black;
 }
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: rgba(255, 198, 0, 0.8);
+  box-shadow: 0 0 1rem rgb(255, 198, 0);
 }
 
 kbd {
